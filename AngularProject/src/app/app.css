@@ -1,0 +1,7 @@
+/* Theme overrides for the Material Web checkbox component */
+md-checkbox {
+  --md-checkbox-selected-container-color: var(--md-sys-color-primary, #6750a4);
+  --md-checkbox-outline-color: var(--md-sys-color-on-surface-variant, #49454f);
+  --md-checkbox-selected-icon-color: var(--md-sys-color-on-primary, #fff);
+  --md-checkbox-hover-state-layer-color: var(--md-sys-color-on-surface, #1d1b20);
+}
