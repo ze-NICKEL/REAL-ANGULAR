@@ -1,7 +1,23 @@
-/* Theme overrides for the Material Web checkbox component */
-md-checkbox {
-  --md-checkbox-selected-container-color: var(--md-sys-color-primary, #6750a4);
-  --md-checkbox-outline-color: var(--md-sys-color-on-surface-variant, #49454f);
-  --md-checkbox-selected-icon-color: var(--md-sys-color-on-primary, #fff);
-  --md-checkbox-hover-state-layer-color: var(--md-sys-color-on-surface, #1d1b20);
+h1 {
+    font: Kalnia Glaze, sans-serif;
+    font-size: 48px;
+    text-align: center;
+}
+
+.mainBox {
+    text-align: center;
+    background-color: rgba(131, 172, 230, 0.407);
+
+    
+
+    margin-right: 650px;
+    margin-left: 650px;
+    margin-top: 240px;
+   height: 200px;
+    border-radius: 45px;
+    padding-top: 50px;
+}
+.mainBox:hover {
+    background-color: rgba(128, 164, 220, 0.677);
+    transition: 0.6s;
 }
