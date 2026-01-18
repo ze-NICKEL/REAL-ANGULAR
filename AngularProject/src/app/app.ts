@@ -11,5 +11,5 @@ import {MatButtonModule} from '@angular/material/button';
   styleUrls: ['./app.css']
 })
 export class App {
-  protected readonly title = signal('AngularProject');
+  protected readonly title = signal("NIKHIL'S HUB")
 }
