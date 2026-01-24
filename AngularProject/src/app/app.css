@@ -7,9 +7,11 @@
 
 h1 {
 
-    font: Kalnia Glaze, sans-serif;
-    font-size: 48px;
+  font-family: "Kalnia Glaze", serif;
+      font-size: 65px;
     text-align: center;
+
+    color: cornflowerblue;
 }
 
 .mainBox {
