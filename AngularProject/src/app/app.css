@@ -1,21 +1,32 @@
+@use "@material/animation";
+
+
+
+
+
+
 h1 {
+
     font: Kalnia Glaze, sans-serif;
     font-size: 48px;
     text-align: center;
 }
 
 .mainBox {
+        
     text-align: center;
     background-color: rgba(131, 172, 230, 0.407);
 
-    
 
     margin-right: 650px;
-    margin-left: 650px;
+    margin-left: 543px;
     margin-top: 240px;
    height: 200px;
+   width: 423px;
     border-radius: 45px;
     padding-top: 50px;
+
+
 }
 .mainBox:hover {
     background-color: rgba(128, 164, 220, 0.677);
@@ -33,13 +44,21 @@ li {
     background-color: cornflowerblue;
     display: inline;
     font-size: 24px;
-    margin-right: 30px;
+    margin-right: 20px;
 
 
-    padding: 10px;
+    padding: 9px;
     border-radius: 15px;
     cursor: pointer;
     transition: 0.3s;
+
+
+    border-style: double;
+
+
+    border-width: 10px;
+
+    border-color: navy;
 
 }
 li > a {
